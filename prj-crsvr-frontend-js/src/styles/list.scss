@@ -1,0 +1,17 @@
+@import "compass";
+
+
+.list {
+  ul.list-header {
+    @include inline-block-list();
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      width: 10%;
+      &.wide {
+        width: 16%;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "checkJs": true,
+        "experimentalDecorators": true
+        "moduleResolution" : "node",
+        "jsx": "preserve"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
+

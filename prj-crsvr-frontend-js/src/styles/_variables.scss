@@ -1,0 +1,15 @@
+$pending-color: #D7D7D7;
+
+$states: 'running', 'complete', 'rejected', 'pending';
+$colors: #619ED2, #54803A, #BD0817, $pending-color;
+$light-colors: #E0ECF6, #E2EEDA, #FDD6D9, #F1F1F1;
+$border-width: 2px;
+$base-height: 42px;
+$link-color: #4381B6;
+
+$light-red-color: nth($light-colors,3);
+$light-green-color: nth($light-colors,2);
+$red-color: nth($colors,3);
+$green-color: nth($colors,2);
+$blue-color: nth($colors,1);
+$gray-color: nth($colors,4);

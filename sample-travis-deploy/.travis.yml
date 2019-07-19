@@ -1,0 +1,31 @@
+git:
+  depth: 1
+matrix:
+  fast_finish: true
+language: node_js
+node_js:
+- '8'
+dist: trusty
+notifications:
+  email:
+  - amin@binary.com
+branches:
+  only:
+  - master
+  - dev
+before_install:
+- yarn
+install:
+- git clone -b gh-pages --depth 1 https://github.com/$TRAVIS_REPO_SLUG.git dist
+- yarn build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: false
+  local-dir: dist
+  on:
+    branch:
+    - master 
+    - dev

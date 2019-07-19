@@ -1,0 +1,6 @@
+**/*.swp
+logs/
+package-lock.json
+node_modules
+.idea/
+.vscode/

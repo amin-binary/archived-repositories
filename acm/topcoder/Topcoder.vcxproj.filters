@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="srm 589 div2">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="contest\af prj\imp bonus assignment retry.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\af prj\imp bonus assignment.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\cf hny\A.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\cf hny\B.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\cf hny\C.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\cf hny\D.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\ct 222\A.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\ct 222\B.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\ct 222\D.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="WinterAndCandies.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="WinterAndMandarins.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="TypoCoderDiv2.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="IncrementAndDoubling.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="FoxAndFencingEasy.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="ErasingCharacters.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="BinPackingEasy.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="BinPacking.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="WinterAndReindeers.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="array_test.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\af prj\imp bonus assingement 892468 last try.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1004 - Monkey Banana Problem.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1005 - Rooks.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1011 - Marriage Ceremonies.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1013 - Love Calculator.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1017 - Brush %28III%29.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1018 - Brush %28IV%29.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1021 - Painful Bases.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1025 - The Specials Menu.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1027 - A Dangerous Maze.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1030 - Discovering Gold.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1031 - Easy Game.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1032 - Fast Bit Calculations.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1033 - Generating Palindromes.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1036 - A Refining Company.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1037 - Agent 47.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\test_prbabilities.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1038 - Race to 1 Again.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerOfThree.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="FoxConnection.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1044 - Palindrome Partitioning.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces Round #223 (Div. 1)\C. Sereja and Brackets.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Testing Round #9\A. Second-Price Auction.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Testing Round #9\B. Fly, freebies, fly!.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Testing Round #9\C. Diverse Substrings.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1047 - Neighbor House.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1050 - Marbles.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1051 - Good or Bad.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Nightly Contests S2E1\A+B.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Nightly Contests S2E1\B - div3.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Nightly Contests S2E1\C - Traffic Lights.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Nightly Contests S2E1\D - Domino.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1060 - nth Permutation.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightoj\1057 - Collecting Gold.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="usaco\test.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="usaco\ratios.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="usaco\msquare.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="usaco\butter.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\s2e2\s2e2_A.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\s2e2\s2e2_B.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\s2e2\s2e2_F.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\s2e2\BigInt.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\s2e2\s2e2_D.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="contest\s2e2\s2e2_E.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces Round #227 (Div. 2)\A. George and Sleep.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces Round #227 (Div. 2)\B. George and Round.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces Round #227 (Div. 2)\C. George and Number.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces Round #227 (Div. 2)\E. George and Cards.cpp">
+      <Filter>srm 589 div2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Lightoj\1021.pdf" />
+  </ItemGroup>
+</Project>

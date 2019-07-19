@@ -1,0 +1,65 @@
+<html>
+    <head>
+<style>
+    p {
+        line-height: 30px;
+        cursor: pointer;
+        transition: all 0.3s linear;
+        border-bottom:solid 2px white;
+        width: 400px;
+        border-bottom:solid 2px #eee;
+
+    }
+    p:hover{
+        border-bottom:solid 2px lightblue;
+        background: #f0f8ff;
+    }
+
+    input {
+      box-sizing: border-box;
+      padding:5px; 
+      border:2px solid #eee;
+      border-radius: 5px;
+      outline: 0;
+      transition: all 0.3s;
+    }
+
+    input:focus {
+      background: #f0f8ff;
+      border-color: lightblue;
+    }
+
+    button{
+      padding:5px 15px; 
+      background:#ccc; 
+      border:0 none;
+      cursor:pointer;
+      border-radius: 5px; 
+    }
+
+</style>
+<link rel='stylesheet' href='animate.css' />
+    </head>
+    <body>
+      <h2 class='bounce' data-bind='css: {animated: total() > 0}' > Total votes so far: {{total}}</h2>
+        <h3> Vote here: </h3>
+        <label> Place your Name: <input data-bind="textInput: user" /> and click on the items below to VOTE </label>
+            {{#foreach: places}}
+            <p data-bind="on.click: $parent.vote($index)">
+              <b>{{name}}</b> <i>added by {{by}}</i>: <b>{{votes}}</b></p>
+            {{/foreach}}
+        <br /> <br /> <br /> <br /> 
+        <hr />
+        <h3> Nope </h3>
+        <label>
+          I <input data-bind="textInput: user" />
+          want to add a new place named <input data-bind="textInput: place">
+          <button data-bind="click: add_place">add</button>
+        </label>
+
+        <script src="js/axios.min.js"></script>
+        <script src="js/knockout-3.4.2.js"></script>
+        <script src="js/knockout.punches.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

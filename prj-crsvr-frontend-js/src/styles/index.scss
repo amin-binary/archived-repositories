@@ -1,0 +1,17 @@
+@import "compass/reset";
+@import "compass";
+
+$desktop-width: 1200px;
+
+$start: #FFFFFF;
+$end: #F5F8FB;
+
+.container {
+  font: Roboto;
+  margin: auto;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  margin-top: 100px; // TODO: remove
+  width: $desktop-width;
+  @include background-image(linear-gradient(to top left, $start, $end));
+}

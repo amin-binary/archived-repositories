@@ -1,0 +1,14 @@
+version: '3'
+services:
+  system:
+    build: .
+    command: /bin/bash
+    tty: true
+    stdin_open: true
+    ports:
+      - "5000:5000"
+    volumes:
+      - ${PWD}:/code
+      - ${HOME}/.ssh:/root/.ssh
+      - ${HOME}/.vimrc:/root/.vimrc
+      - ${HOME}/.tmux.conf:/root/.tmux.conf

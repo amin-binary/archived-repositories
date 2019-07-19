@@ -1,0 +1,11 @@
+{
+  "name": "escrow",
+  "version": "1.0.0",
+  "description": "crypto escrow",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^6.1.4"
+  }
+}

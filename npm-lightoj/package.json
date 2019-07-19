@@ -1,0 +1,18 @@
+{
+    "name": "lightoj",
+    "version": "4.1.0",
+    "description": "",
+    "main": "./bin/lightoj.js",
+    "author": "amin.roosta@outlook.com",
+    "license": "ISC",
+    "bin": {
+        "lightoj": "./bin/lightoj.js"
+    },
+    "scripts": {
+        "start": "./bin/lightoj.js"
+    },
+    "dependencies": {
+        "puppeteer": "^1.13.0",
+        "readline-sync": "^1.4.9"
+    }
+}

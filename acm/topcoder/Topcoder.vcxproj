@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Codeforces Round #227 (Div. 2)\A. George and Sleep.cpp" />
+    <ClCompile Include="Codeforces Round #227 (Div. 2)\B. George and Round.cpp" />
+    <ClCompile Include="Codeforces Round #227 (Div. 2)\C. George and Number.cpp" />
+    <ClCompile Include="Codeforces Round #227 (Div. 2)\E. George and Cards.cpp" />
+    <ClCompile Include="contest\s2e2\BigInt.cpp" />
+    <ClCompile Include="contest\s2e2\s2e2_A.cpp" />
+    <ClCompile Include="contest\s2e2\s2e2_B.cpp" />
+    <ClCompile Include="contest\s2e2\s2e2_D.cpp" />
+    <ClCompile Include="contest\s2e2\s2e2_E.cpp" />
+    <ClCompile Include="contest\s2e2\s2e2_F.cpp" />
+    <ClCompile Include="Lightoj\1057 - Collecting Gold.cpp" />
+    <ClCompile Include="array_test.cpp" />
+    <ClCompile Include="BinPacking.cpp" />
+    <ClCompile Include="BinPackingEasy.cpp" />
+    <ClCompile Include="Codeforces Round #223 (Div. 1)\C. Sereja and Brackets.cpp" />
+    <ClCompile Include="contest\af prj\imp bonus assignment retry.cpp" />
+    <ClCompile Include="contest\af prj\imp bonus assignment.cpp" />
+    <ClCompile Include="contest\af prj\imp bonus assingement 892468 last try.cpp" />
+    <ClCompile Include="contest\cf hny\A.cpp" />
+    <ClCompile Include="contest\cf hny\B.cpp" />
+    <ClCompile Include="contest\cf hny\C.cpp" />
+    <ClCompile Include="contest\cf hny\D.cpp" />
+    <ClCompile Include="contest\ct 222\A.cpp" />
+    <ClCompile Include="contest\ct 222\B.cpp" />
+    <ClCompile Include="contest\ct 222\D.cpp" />
+    <ClCompile Include="ErasingCharacters.cpp" />
+    <ClCompile Include="FoxAndFencingEasy.cpp" />
+    <ClCompile Include="FoxConnection.cpp" />
+    <ClCompile Include="IncrementAndDoubling.cpp" />
+    <ClCompile Include="Lightoj\1004 - Monkey Banana Problem.cpp" />
+    <ClCompile Include="Lightoj\1005 - Rooks.cpp" />
+    <ClCompile Include="Lightoj\1011 - Marriage Ceremonies.cpp" />
+    <ClCompile Include="Lightoj\1013 - Love Calculator.cpp" />
+    <ClCompile Include="Lightoj\1017 - Brush %28III%29.cpp" />
+    <ClCompile Include="Lightoj\1018 - Brush %28IV%29.cpp" />
+    <ClCompile Include="Lightoj\1021 - Painful Bases.cpp" />
+    <ClCompile Include="Lightoj\1025 - The Specials Menu.cpp" />
+    <ClCompile Include="Lightoj\1027 - A Dangerous Maze.cpp" />
+    <ClCompile Include="Lightoj\1030 - Discovering Gold.cpp" />
+    <ClCompile Include="Lightoj\1031 - Easy Game.cpp" />
+    <ClCompile Include="Lightoj\1032 - Fast Bit Calculations.cpp" />
+    <ClCompile Include="Lightoj\1033 - Generating Palindromes.cpp" />
+    <ClCompile Include="Lightoj\1036 - A Refining Company.cpp" />
+    <ClCompile Include="Lightoj\1037 - Agent 47.cpp" />
+    <ClCompile Include="Lightoj\1038 - Race to 1 Again.cpp" />
+    <ClCompile Include="Lightoj\1044 - Palindrome Partitioning.cpp" />
+    <ClCompile Include="Lightoj\1047 - Neighbor House.cpp" />
+    <ClCompile Include="Lightoj\1050 - Marbles.cpp" />
+    <ClCompile Include="Lightoj\1051 - Good or Bad.cpp" />
+    <ClCompile Include="Lightoj\1060 - nth Permutation.cpp" />
+    <ClCompile Include="Lightoj\test_prbabilities.cpp" />
+    <ClCompile Include="Nightly Contests S2E1\A+B.cpp" />
+    <ClCompile Include="Nightly Contests S2E1\B - div3.cpp" />
+    <ClCompile Include="Nightly Contests S2E1\C - Traffic Lights.cpp" />
+    <ClCompile Include="Nightly Contests S2E1\D - Domino.cpp" />
+    <ClCompile Include="PowerOfThree.cpp" />
+    <ClCompile Include="Testing Round #9\A. Second-Price Auction.cpp" />
+    <ClCompile Include="Testing Round #9\B. Fly, freebies, fly!.cpp" />
+    <ClCompile Include="Testing Round #9\C. Diverse Substrings.cpp" />
+    <ClCompile Include="TypoCoderDiv2.cpp" />
+    <ClCompile Include="usaco\butter.cpp" />
+    <ClCompile Include="usaco\msquare.cpp" />
+    <ClCompile Include="usaco\ratios.cpp" />
+    <ClCompile Include="usaco\test.cpp" />
+    <ClCompile Include="WinterAndCandies.cpp" />
+    <ClCompile Include="WinterAndMandarins.cpp" />
+    <ClCompile Include="WinterAndReindeers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Lightoj\1021.pdf" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{715BABA8-559D-41D0-8039-5EBF35D354C4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Topcoder</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>CTP_Nov2013</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

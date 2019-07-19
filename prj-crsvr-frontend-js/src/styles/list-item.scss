@@ -1,0 +1,131 @@
+@import "compass";
+@import "./variables";
+
+$margin-top: 10px;
+$height: $base-height;
+
+@mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.list-item {
+  margin: $margin-top 0 0 0;
+  height: 6*$height;
+  max-height: $height;
+  transition: max-height 0.4s;
+  overflow: hidden;
+
+  &.active {
+    max-height: 6*$height;
+
+    .name {
+      text-decoration: underline;
+      color: $link-color;
+    }
+  }
+
+  @for $i from 1 through length($states) {
+    &.#{nth($states, $i)} {
+      border: $border-width solid nth($colors, $i);
+      @include background-image(linear-gradient(to right, nth($light-colors, $i), #FFFFFF));
+
+      .list-header {
+        color: darken(nth($colors, $i), 10%);
+        svg path {
+          fill: darken(nth($colors, $i), 10%);
+        }
+      }
+    }
+  }
+
+  ul.list-header {
+    line-height: $height;
+    @include inline-block-list();
+    cursor: pointer;
+
+    svg {
+      position: relative;
+      padding: 0 $height/6;
+      top: $height / 6;
+      width: $height *2/3;
+      height: $height *2/3;
+    }
+
+    .progress {
+      display: flex;
+      flex-flow: row nowrap;
+      width: $height;
+      height: $height*2/3;
+      border: $border-width solid darken($pending-color, 10%);
+      @for $i from 1 through length($states) {
+        &.#{nth($states, $i)} .active {
+          background: nth($colors, $i);
+        }
+      }
+      .inactive {
+        background: $pending-color;
+      }
+    }
+  }
+}
+
+@keyframes popover-animation {
+  from {
+    width: 4*$height;
+    height: 4*$height;
+    top: -5*$height;
+  }
+
+  to {
+    width: 8*$height;
+    height: 8*$height;
+    top: $height;
+  }
+}
+
+.item-detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5*$height;
+  box-sizing: border-box;
+
+  .box {
+    width: 4*$height;
+    height: 4*$height;
+    cursor: pointer;
+    .pop-over {
+      position: fixed;
+      left: calc(50% - #{4*$height});
+      animation: popover-animation 0.4s forwards;
+      cursor: default;
+      z-index: 10;
+      &::after {
+        content: '';
+        background: rgba(0,0,0,0.6);
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      > span {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-style: italic;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  .result-box {
+    width: 5*$height;
+    height: 4*$height;
+  }
+}
