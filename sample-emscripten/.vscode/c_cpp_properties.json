@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"],
+            "defines": [],
+            "compilerPath": "/home/amin/.emsdk/fastcomp/emscripten/em++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "${workspaceFolder}/.dist/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
